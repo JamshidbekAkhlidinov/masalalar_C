@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-
 int main(){
-	int a,b,c,i,k;
-	cout<<"a="; cin>>a;
-	cout<<"b="; cin>>b;
-	int tub[b-a+1];
-	for(int i=a; i<=b; i++){
+int a,b,k,o,c;
+cout<<"a=";cin>>a;
+cout<<"b=";cin>>b;
+
+int tub[b-a+1];	
+for(int i=a; i<=b; i++){
 		for(int y=1; y<=i; y++){
 			if(i%y==0){
 				k++;
@@ -23,7 +23,5 @@ int main(){
 		cout<<tub[o]<<" ";
 		s = s + tub[o];
 	}
-	
-	cout<<"\nS => "<<s/c;
-	
+	cout<<"\nS="<<s/c;
 }
