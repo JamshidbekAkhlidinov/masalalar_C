@@ -3,11 +3,11 @@
 #include <iomanip>
 using namespace std;
 int main(){
-int A[10+1][10+1],B[9+1][9+1];
+int A[10][10],B[9][9];
 int n,k;
 int k1,k2,k3,k4;
-for(k1=1;k1<=10; k1++){
-for(k2=1;k2<=10; k2++){
+for(k1=0;k1<10; k1++){
+for(k2=0;k2<10; k2++){
 	A[k1][k2] = rand()%20+1;
 			cout<<setw(3);
 	cout<<A[k1][k2]<<" ";
@@ -16,15 +16,15 @@ for(k2=1;k2<=10; k2++){
 }
 cout<<"n="; cin>>n;
 cout<<"k="; cin>>k;
-for(k1=1;k1<=10; k1++){
-for(k2=1;k2<=10; k2++){
+for(k1=0;k1<10; k1++){
+for(k2=0;k2<10; k2++){
 	if(k1==k or k2==n){
 		A[k2][k1] = 0;
 	}
 	}
 }
-for(k1=1;k1<=10; k1++){
-for(k2=1;k2<=10; k2++){
+for(k1=0;k1<10; k1++){
+for(k2=0;k2<10; k2++){
 	if(A[k1][k2]!=0){
 		B[k1][k2] = A[k1][k2] ;
 		cout<<setw(3);

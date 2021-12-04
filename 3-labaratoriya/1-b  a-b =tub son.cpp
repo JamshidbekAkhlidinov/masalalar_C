@@ -4,7 +4,6 @@ int main(){
 int a,b,k,o,c;
 cout<<"a=";cin>>a;
 cout<<"b=";cin>>b;
-
 int tub[b-a+1];	
 for(int i=a; i<=b; i++){
 		for(int y=1; y<=i; y++){

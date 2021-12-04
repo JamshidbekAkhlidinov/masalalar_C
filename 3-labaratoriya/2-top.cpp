@@ -7,13 +7,15 @@ int main(){
 	int k[n];
 	cout<<"Massiv qiymatlai\n";
 	for(int i=1; i<=n; i++){
-		k[i] = rand()%20;
+		k[i] = -10+rand()%20+1;
 		cout<<k[i]<<" ";
 	}
 	cout<<"\n";
+	int min = k[1];
 	for(int i=1; i<=n; i++){
-		if(i%2==0){
-			cout<<k[i]<<" ";
+		if(min>k[i]){
+			min = k[i];
 		}
 	}
+	cout<<"min =>"<<min;
 }
