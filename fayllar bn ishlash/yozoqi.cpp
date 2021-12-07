@@ -14,6 +14,7 @@ int main(){
 	c= stoi(a);
 	d = stoi(b);
 	
+	yoz<<c+d;	
 	cout<<c+d;
 	
 }
