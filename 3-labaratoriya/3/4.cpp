@@ -21,6 +21,6 @@ int main(){
 	b = stoi(a);
 	
 	yoz<<fact(b);	
-	cout<<fact(5);
+	cout<<fact(b);
 	
 }

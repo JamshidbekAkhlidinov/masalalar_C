@@ -3,9 +3,9 @@
 using namespace std;
 int main(){
 	string s,m="";
-	
 	int k,l;
 	getline(cin,s);
+	s[0] = toupper(s[0]);
 	for(int i=0; i<=s.length(); i++){
 		if(s[i]==' '){
 			k++;

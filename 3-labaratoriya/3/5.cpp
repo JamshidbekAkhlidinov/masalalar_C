@@ -6,20 +6,21 @@ using namespace std;
 int main(){
 	ofstream yoz("output.txt");
 	ifstream oqi("input.txt");
-	string a,k;
+	string a,k="";
 	int b,i,l;
-	cin>>a;
+	getline(cin,a);
 	
-	for(i=0; a.length(); i++){
+	for(i=0; i<a.length(); i++){
 		k=a[i]+k;
-		cout<<a[i];
 	}
 	
 	if(a==k){
-		yoz<<"palindrom";
-		cout<<"Palindrom";
+		yoz<<"palindrom\n";
+		cout<<"Palindrom\n";
 	}else{
-			yoz<<"palindrom emas";
-		cout<<"Palindrom emas";
+			yoz<<"palindrom emas\n";
+		cout<<"Palindrom emas\n";
 	}
+	
+
 }
