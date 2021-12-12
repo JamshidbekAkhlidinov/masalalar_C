@@ -2,20 +2,19 @@
 #include <string>
 using namespace std;
 int main(){
-	string l;
-	cout<<"\nSatr =>"; 
-	getline(cin,l);
-	l=" "+l;
-	int n,m=0;
+	char A[200];
+	cout<<"Satr =>"; 
+	cin.getline(A,200);
+	int n,m=1;
 	cout<<"n="; cin>>n;
-	for(int k=0; k<=l.length(); k++){
-			if(l[k]==' '){
+	for(int k=0; k<=sizeof(A); k++){
+			if(A[k]==' '){
 					m++;
 					if(m==n){
-						l[k+1] = toupper(l[k+1]);
+						A[k+1] = toupper(A[k+1]);
 					}	
 			}
 			}
-	cout<<"\n"<<l;
+	cout<<"\n"<<A;
 	}
 	

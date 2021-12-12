@@ -24,7 +24,7 @@ void chiqarish(gurux a[], int n){
 			p =i;
 		}	
 	}
-		cout<<"Eng boyi uzuni\n";
+		cout<<"\n\nEng boyi uzuni";
 		cout<<"\nIsmi "<<a[p].ism;
 		cout<<"\nFamiliyasi "<<a[p].fam;
 		cout<<"\nBo'yi "<<a[p].boyi;	
