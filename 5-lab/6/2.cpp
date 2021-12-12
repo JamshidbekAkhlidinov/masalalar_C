@@ -33,3 +33,4 @@ int main(){
 	chiqarish(a,n);
 	
 }
+
