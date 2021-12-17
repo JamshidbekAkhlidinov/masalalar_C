@@ -1,0 +1,12 @@
+Most software programs work with 
+files, and therefore it is necessary 
+to create, remove, read write, 
+open files. What is a file? File - 
+a named collection of bytes, which 
+can be stored on a storage device. Well, 
+it is now clear, that a file is a sequence 
+of bytes, which has its, unique name, for 
+example файл.txt. The same directory can not 
+contain files with the same name. Under the name 
+of the file it is understood not only by its name, 
+but also the expa
