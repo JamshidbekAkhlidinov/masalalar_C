@@ -4,8 +4,7 @@ class aviareys{
 	public:
 		string nomi,qayerdan,qayerga;
 		int chipta_narxi, soni;
-};
-	
+};	
 	void yoz(aviareys aviareys[], int n){
 			for (int k=0; k<n; k++){
 				cout<<"Samaliyot nomi =>"; cin>>aviareys[k].nomi;
@@ -16,7 +15,6 @@ class aviareys{
 				cout<<endl;
 			}
 	}
-
 	void oqi(aviareys aviareys[], int n){
 			for (int k=0; k<n; k++){
 				cout<<"Samaliyot nomi =>"<<aviareys[k].nomi<<endl;
@@ -27,8 +25,6 @@ class aviareys{
 				cout<<endl;
 			}
 	}
-
-
 int main(){
 	int n;
 	cout<<"Nechta malumot kiritmoqchisiz? "; cin>>n;
@@ -37,5 +33,4 @@ int main(){
 	yoz(a,n);
 	cout<<endl<<"Kiritilgan malumotlar\n";
 	oqi(a,n);
-
 }

@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	string s,l;
 	int i;
-	cout<<"Soz kiriting  => "; cin>>s;
+	cout<<"Soz kiriting  => "; getline(cin,s);
 	for(i=0; i<=s.length(); i++){
 		l = s[i] + l;
 	}
