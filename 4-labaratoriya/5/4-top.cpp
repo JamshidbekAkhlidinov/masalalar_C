@@ -3,32 +3,32 @@ using namespace std;
 class Firma {
 	public:
 		string ism,fam;
-		int yosh;
+		int oy,yil;
 };
 	
 	void yoz(Firma firma[], int n){
 			for (int k=0; k<n; k++){
 				cout<<"Ism =>"; cin>>firma[k].ism;
 				cout<<"Familiya =>"; cin>>firma[k].fam;
-				cout<<"Yosh =>"; cin>>firma[k].yosh;
-		
+				cout<<"Qabul qilingan oy =>"; cin>>firma[k].oy;
+				cout<<"Qabul qilingan yil =>"; cin>>firma[k].yil;
 				cout<<endl;
 			}
 	}
 
 	void oqi(Firma firma[], int n){
+				int buyil = 2021;
 				for (int k=0; k<n; k++){
-				if(firma[k].fam=="Abdullaev" or firma[k].fam=="Abduazizov" or firma[k].fam=="Abdualimov "){
+				if(buyil - firma[k].yil>3){
 				cout<<"Ismi =>"<<firma[k].ism<<endl;
 				cout<<"Familiyasi =>"<<firma[k].fam<<endl;
-				cout<<"Yoshi =>"<<firma[k].yosh<<endl;
+				cout<<"Qabul qilingan oy =>"<<firma[k].oy<<endl;
+				cout<<"Qabul qilingan yil =>"<<firma[k].yil<<endl;
 				cout<<endl;
-				}else{
-				cout<<"Bunday odamlar yoq\n";
-			
-			}
+				}
 			}
 	}
+	
 
 
 int main(){
