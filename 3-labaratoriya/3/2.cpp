@@ -23,21 +23,15 @@ for(int t=0; t<=k; t++){
 cout<<massiv[t]<<" ";	
 }
 
-cout<<"\nO'zgargan satr\n";
+cout<<"\n\nO'chirilgan satr\n";
 
 for(int t=0; t<=k; t++){
-cout<<massiv[t]<<" ";	
-yoz<<massiv[t]<<" ";
-if(t%2==0){
-	string o;
-	o = massiv[t];
-	for(int j=0; j<=o.length(); j++){
-		o[j] = toupper(o[j]);
-		cout<<o[j];
-		yoz<<o[j];
-	}
-	cout<<" ";
-	yoz<<" ";
+//cout<<massiv[t]<<" ";	
+//yoz<<massiv[t]<<" ";
+
+if(massiv[t].length()%2==1){
+	cout<<massiv[t]<<endl;
+	yoz<<massiv[t]<<endl;
 }
 
 
