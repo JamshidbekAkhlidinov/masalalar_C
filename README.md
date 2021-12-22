@@ -1,2 +1,2 @@
-# masalalar_C
+# masalalar_C++
  c++ masalalar
