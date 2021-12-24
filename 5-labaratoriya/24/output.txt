@@ -1,0 +1,3 @@
+m[0]=salom 5
+m[1]=qalesan 7
+m[2]=uzbekistan 10
