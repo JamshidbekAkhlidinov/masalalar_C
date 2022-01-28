@@ -1,0 +1,1 @@
+toshkent axborot texnologiyalari universitetiga hush kelibsiz
