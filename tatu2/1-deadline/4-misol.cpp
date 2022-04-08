@@ -1,7 +1,7 @@
 #include <iostream> 
 using namespace std; 
  
-namespace Ruchka { 
+namespace RuchkaN { 
  class Ruchka { 
   public: 
    string rangi;
@@ -10,6 +10,7 @@ namespace Ruchka {
    
    void kiritish(Ruchka  a[], int n){ 
    for(int i=1; i<=n; i++){ 
+    cout<<i<<" - malumot\n";
     cout<<"Rangi "; cin>>a[i].rangi; 
     cout<<"narxi "; cin>>a[i].narxi; 
 	cout<<"Ogirligi "; cin>>a[i].ogirligi; 
@@ -31,7 +32,8 @@ namespace Ruchka {
    string qidir; 
    cout<<"Qidirish uchun nomni kiriting! "; cin>>qidir; 
    for(int i=1; i<=n; i++){ 
-    if(qidir==a[i].nomi){ 
+    if(qidir==a[i].rangi){ 
+    cout<<i<<" - malumot\n";
      cout<<"rangi "<<a[i].rangi<<endl; 
  	 cout<<"narxi "<<a[i].narxi<<endl; 
 	 cout<<"ogirligi "<<a[i].ogirligi<<endl; 
@@ -45,18 +47,26 @@ namespace Ruchka {
     
 } 
  
-using namespace Ruchka ; 
+using namespace RuchkaN ; 
  
 int main(){ 
   
   
- int n; 
+ int n,d; 
  string qidir; 
  cout<<"Nechta mmalumot kiritmoqchisiz? "; cin>>n; 
  
-  Moshina deff[100]; 
+  Ruchka deff[100]; 
   deff[100].kiritish(deff,n); 
-  deff[100].chiqarish(deff,n);  
+  
+  cout<<"Qidirmoqchimisiz =>2 Saralamochimisiz? =>1";
+  cin>>d;
+  switch(d){
+  	case 1: deff[100].saralash(deff,n); 
+  	default: deff[100].chiqarish(deff,n);  
+  }
+  
+  
   
  
    
