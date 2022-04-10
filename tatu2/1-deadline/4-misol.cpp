@@ -20,7 +20,7 @@ namespace RuchkaN {
   
   void saralash(Ruchka a[], int n){
   	for(int i=1; i<=n; i++){
-  		for(int j=0;j<=n; j++){
+  		for(int j=1;j<=n; j++){
   			if(a[i].narxi>a[j].narxi){
   				swap(a[i],a[j]);
 			  }
@@ -52,22 +52,15 @@ using namespace RuchkaN ;
 int main(){ 
   
   
- int n,d; 
+ int n; 
  string qidir; 
  cout<<"Nechta mmalumot kiritmoqchisiz? "; cin>>n; 
  
   Ruchka deff[100]; 
   deff[100].kiritish(deff,n); 
-  
-  cout<<"Qidirmoqchimisiz =>2 Saralamochimisiz? =>1";
-  cin>>d;
-  switch(d){
-  	case 1: deff[100].saralash(deff,n); 
-  	default: deff[100].chiqarish(deff,n);  
-  }
-  
-  
-  
+
+	deff[100].saralash(deff,n); 
+  	deff[100].chiqarish(deff,n);  
  
    
 }
