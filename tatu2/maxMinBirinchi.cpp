@@ -26,8 +26,6 @@ int main(){
 		if(max<a[i]){
 			max = a[i];
 			maxN = i;
-		}else if(max==a[i]){
-			maxN = i;
 		}
 	}
 
@@ -38,8 +36,13 @@ int main(){
 		}
 	}
 	
-	cout<<"Max "<<max<< " N-> "<<maxN<<" Min "<<min<< " N-> "<<minN<<"\n\n";
+	if(minN<maxN){
+		cout<<minN<<" "<<min;
+	}else{
+		cout<<maxN<<" "<<max;	
+	}
 	
+	cout<<"\n\n";
 	main();
 		
 }
