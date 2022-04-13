@@ -26,7 +26,7 @@ int main(){
 		if(max<a[i]){
 			max = a[i];
 			maxN = i;
-		}else{
+		}else if(max==a[i]){
 			maxN = i;	
 		}
 	}
@@ -35,7 +35,7 @@ int main(){
 		if(min>a[i]){
 			min = a[i];
 			minN = i;
-		}else{
+		}else if(min==a[i]){
 			minN = i;
 		}
 	}
