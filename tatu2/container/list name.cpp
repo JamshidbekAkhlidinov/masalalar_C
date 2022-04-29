@@ -1,12 +1,9 @@
 #include <iostream>
 #include <list>
-#include <time.h>
 
 using namespace std;
 
 int main(){
-	
-	srand(time(0));
 	
 	list <string> list;
 

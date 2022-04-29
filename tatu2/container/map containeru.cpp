@@ -8,7 +8,7 @@ int main(){
 	
 	srand(time(0));
 
-	map <int,int> map2;
+	multimap <int,int> map2;
 	
 	int n;
 	cout<<"n=";
