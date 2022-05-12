@@ -38,6 +38,7 @@ int main(){
 	cout<<"\n\nKasr qismi\n";
 	for(auto it=toplam3.begin(); it!=toplam3.end(); ++it){
 		cout<<setw(10)<<*it;
-	
 	}
+	
+	cout<<"\n\n"<<*toplam3.rend();
 }
