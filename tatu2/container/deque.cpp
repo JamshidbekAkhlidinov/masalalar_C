@@ -5,8 +5,6 @@ using namespace std;
 
 int main(){
 
-system("Color 02");
-
 	deque<int> deff;
 	
 	int n;
