@@ -11,7 +11,6 @@ int main(){
 	cout<<"N=";
 	cin>>n;
 
-	
 	for(int i=1; i<=n; i++){
 		if(i%2==0)
 		deff.push_front(i);

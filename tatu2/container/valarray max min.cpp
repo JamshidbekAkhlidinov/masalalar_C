@@ -14,7 +14,7 @@ int main(){
 	}
 	cout<<endl;
 	
-	cout<<"\nFunksiya orqali";
+	cout<<"\nFunksiya orqali";	
 	cout<<"\nMax =>"<<val.max();
 	cout<<"\nMin =>"<<val.min();
 	
