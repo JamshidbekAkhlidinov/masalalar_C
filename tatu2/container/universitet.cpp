@@ -5,7 +5,7 @@ using namespace std;
 	class universitet{
 		public:
 			string nomi,rektorFIO;
-			int x_soni,f_soni,t_soni,p_soni;
+			int x_soni,f_soni,t_soni,p_soni;	
 			
 			void kiritish(universitet a[], int n){
 				for ( int i=1; i<=n; i++){
